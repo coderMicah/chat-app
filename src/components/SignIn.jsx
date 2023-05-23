@@ -9,8 +9,11 @@ function SignIn() {
   };
 
   return (
-    <div className="flex justify-center">
-      <GoogleButton onClick={handleSignIn} />
+    <div className="flex justify-center ">
+    
+      <button className="text-white border rounded-md p-2 border-gray-400" onClick={handleSignIn}>
+        Sign In
+      </button>
     </div>
   );
 }
