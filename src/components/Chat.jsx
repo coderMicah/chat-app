@@ -27,7 +27,7 @@ function Chat() {
   });
   return (
     <>
-      <main className="flex flex-col p-[10px] relative overflow-scroll">
+      <main className="flex flex-col p-[10px] relative h-full pb-16 overflow-y-scroll">
         {/* Chat message component */}
         {messages &&
           messages.map((message) => (
